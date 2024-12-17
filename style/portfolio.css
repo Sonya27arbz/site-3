@@ -1,0 +1,202 @@
+body{
+    font-family:'Epilogue', sans-serif;
+    background-color: #FDF0E9;
+    
+}
+.header{
+    background-color: #28293E;
+    height: 25.83vw;
+    .logo{
+        height: 2.60vw;
+        width: 8.85vw;
+        margin-top: 1vw;
+    }
+    .ofc-menu{
+        background-color: #28293E;
+    }
+    .menu-text{
+        margin-top: 1vw;
+        font-size: 0.83vw;
+        margin-left: 5vw;
+    }
+    .contact{
+        border: rgba(255, 255, 255, 0.455) 0.07vw solid;
+        border-radius: 0.3vw;
+        padding-top: 0.5vw;
+        padding-bottom: 0.5vw;
+        padding-left: 1.5vw;
+        padding-right: 1.5vw;
+        font-weight: 900;
+        font-size: 0.83vw;
+    }
+    .title-header{
+        font-size: 3.75vw;
+        font-weight: 800;
+        margin-top: 5vw;
+        margin-bottom: 2vw;
+    }
+    .text-header{
+        font-size: 0.83vw;
+        line-height: 1.67vw;
+    }
+}
+.section-1{
+    .nav-tabs {
+        justify-content: center; 
+    }
+    .tab-title{
+        font-size: 0.83vw;
+        color: #391400;
+    }
+    
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 8px;
+    margin-left: 5vw;
+    img{
+        width: 19.27vw;
+        height: 21.67vw;
+    }
+}
+    
+
+
+
+.div4 {
+    grid-row-start: 2;
+}
+
+.div5 {
+    grid-row-start: 2;
+}
+
+.div6 {
+    grid-row-start: 2;
+}
+
+.div7 {
+    grid-row-start: 3;
+}
+
+.div8 {
+    grid-row-start: 3;
+}
+
+.div9 {
+    grid-row-start: 3;
+}
+
+
+.parent-2 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 8px;
+    margin-left: 5vw;
+    img{
+        width: 19.27vw;
+        height: 21.67vw;
+    }
+}
+.parent-3{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 8px;
+    margin-left: 5vw;
+    img{
+        width: 19.27vw;
+        height: 21.67vw;
+    }
+}
+
+.con{
+    width: 60.94vw;
+    height: 28.33vw;
+    background-color: #EF6D58;
+    border-radius: 0.5vw;
+    margin-left: 5vw;
+    margin-top: -28vw;
+}
+.pic-3{
+    width: 23.13vw;
+    height: 22.50vw;
+    margin-left: 30vw;
+    margin-top: 2vw;
+}
+.title-sec-3{
+    margin-left: 5vw;
+    margin-top: -21vw;
+    font-size: 2.92vw;
+    font-weight: 800;
+}
+.text-bottom-sec3{
+    color: rgba(255, 255, 255, 0.551);
+    font-size: 0.83vw;
+    margin-left: 5vw;
+    margin-top: 3vw;
+}
+.btn-sec3{
+    border: rgb(255, 255, 255) 0.07vw solid;
+    border-radius: 0.3vw;
+    background-color: rgb(255, 255, 255);
+    font-size: 0.83vw;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    font-weight: 900;
+    box-shadow:  0 0 0.5vw rgba(0, 0, 0, 0.36);
+    margin-left: 5vw;
+    margin-top: 1.5vw;
+    a{
+        text-decoration: none;
+        color: #391400;
+        font-weight: 700;
+        font-size: 0.83vw;
+    }
+}
+        
+        
+}
+footer{
+    height: 25.17vw;
+    width: 99vw;
+    background-color: #28293E;
+    margin-top: 5vw;
+    position: absolute;
+
+    .men-li{
+        color: #EF6D58;
+        font-size: 1vw;
+        margin-left: 6vw;
+    }
+
+    .icon-fot{
+        width: 2.50vw ;
+        height: 2.50vw;
+        margin-top: 5vw;
+        
+    }
+    .ic{
+        margin-left: 75vw;
+
+    }
+    .col-foot{
+        margin-top: -2vw;
+        margin-left: 19vw;
+    }
+    .logo-foot{
+        height: 2.60vw;
+        width: 8.85vw;
+        margin-top: 8vw;
+        margin-left: 10vw;
+    }
+    .text-top-foot{
+        font-size: 0.83vw;
+        margin-left: 10vw;
+        margin-top: -1vw;
+    }
+}
